@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Ecommerce from '../public/assets/projects/ecommerce.jpg';
-import Estate from '../public/assets/projects/estate.jpg'
-import Whatsapp from '../public/assets/projects/whatsapp.jpg'
-import BlogImg from '../public/assets/projects/blog.jpg'
-import Blog from './ProjectItem';
+import Estate from '../public/assets/projects/estate.jpg';
+import Whatsapp from '../public/assets/projects/whatsapp.jpg';
+import BlogImg from '../public/assets/projects/blog.jpg';
+import UiImg from '../public/assets/projects/ui.jpg';
 import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
@@ -42,6 +42,12 @@ const Projects = () => {
             projectUrl='/blog'
             tech='MERN Stack'
 
+          />
+          <ProjectItem
+            title='Ui/Ux Landing Page'
+            backgroundImg={UiImg}
+            projectUrl='/landingUi'
+            tech='React Js'
           />
         </div>
       </div>
