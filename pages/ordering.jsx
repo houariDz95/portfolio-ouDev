@@ -35,7 +35,7 @@ const whatsapp = () => {
               the username and password to login are <span className="font-bold text-blue-400">houari</span >, <span className="font-bold text-blue-400">123123</span>
           </p>
           <a
-            href='https://github.com/houariDz95/uiux-landingpage '
+            href='https://github.com/houariDz95/ordering-pizza-app-'
             target='_blank'
             rel='noreferrer'
           >
