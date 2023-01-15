@@ -6,6 +6,8 @@ import Estate from '../public/assets/projects/estate.jpg';
 import Whatsapp from '../public/assets/projects/whatsapp.jpg';
 import BlogImg from '../public/assets/projects/blog.jpg';
 import UiImg from '../public/assets/projects/ui.jpg';
+import ordering from '../public/assets/projects/ordering.jpg';
+
 import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
@@ -48,6 +50,12 @@ const Projects = () => {
             backgroundImg={UiImg}
             projectUrl='/landingUi'
             tech='React Js'
+          />
+          <ProjectItem
+            title='Full stack ordering app '
+            backgroundImg={ordering}
+            projectUrl='/ordering'
+            tech='NextJs mongoDb Redux'
           />
         </div>
       </div>
