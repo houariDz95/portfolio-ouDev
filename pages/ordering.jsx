@@ -30,7 +30,7 @@ const whatsapp = () => {
             Food ordering app full stack app. Next.js MongoDB restaurant (order food)
             project using Paypal, React Redux.
             in this app you can login on the{" "}
-             <a href="/https://ordering-pizza-app.vercel.app/login"
+             <a href="https://ordering-pizza-app.vercel.app/login"
               target='_blank'
               rel='noreferrer'
               className="underline cursor-pointer">
