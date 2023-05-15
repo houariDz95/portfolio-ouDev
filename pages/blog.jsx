@@ -18,7 +18,7 @@ const blog = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Blog</h2>
-          <h3>MongoDB / Express / React Js / Node Js</h3>
+          <h3>NextJs / Firebase / React Js / Tailwind Css</h3>
         </div>
       </div>
 
@@ -27,21 +27,24 @@ const blog = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was a full-stack blog application. With email and Google Authentication,
-           i was using MongoDb, Express, React Js, Node jS and is hosted on vercel and and 
-           the backend hosted on Heroku. Users are able to write and post articles 
-            user authentication is available so you can signup and signin to your account 
-            with an Google in order to read and write articles.
+          Thoughtful Words is a fully responsive platform where users can create an 
+          account, write and publish posts, and manage their content. Our app is built using the latest web
+           technologies, allowing for a seamless user experience on both desktop and mobile devices. With 
+           the ability to create, update, and delete posts, our users have complete control over their content.
+            Our platform is designed to be easy to use and intuitive, ensuring that even novice bloggers can 
+            quickly get up and running. Whether you're a seasoned writer or just starting out, our Next.
+            js Firebase blog app is the perfect place to share your ideas and connect with a like-minded 
+            community.
           </p>
           <a
-            href='https://vercel.com/houaridz95/mern-blog-mgg6'
+            href='#'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 disabled'>Code</button>
           </a>
           <a
-            href='https://mern-blog-mgg6.vercel.app/'
+            href='https://blog-app-firebase-n2bsr8o0l-houaridz95.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -62,13 +65,13 @@ const blog = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> express
+                <RiRadioButtonFill className='pr-1' /> Firebase
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Node Js
+                <RiRadioButtonFill className='pr-1' /> Material Ui
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MongoDB
+                <RiRadioButtonFill className='pr-1' /> Nextjs 13
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Firebase Auth

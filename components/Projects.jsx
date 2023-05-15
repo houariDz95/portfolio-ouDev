@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
+
 import React from 'react';
 import Ecommerce from '../public/assets/projects/ecommerce.jpg';
 import Estate from '../public/assets/projects/estate.jpg';
@@ -7,7 +6,7 @@ import Whatsapp from '../public/assets/projects/whatsapp.jpg';
 import BlogImg from '../public/assets/projects/blog.jpg';
 import UiImg from '../public/assets/projects/ui.jpg';
 import ordering from '../public/assets/projects/ordering.jpg';
-
+import Iqraa from '../public/assets/projects/iqraa.jpg';
 import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
@@ -18,6 +17,18 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Oumat Iqraa Library'
+            backgroundImg={Iqraa}
+            projectUrl='/iqraa'
+            tech='NextJs nodejs tailwind'
+          />
+          <ProjectItem
+            title='Thoughtful Words Blog'
+            backgroundImg={BlogImg}
+            projectUrl='/blog'
+            tech='NextJs Firebase Tailwind'
+          />
           <ProjectItem
             title='E-commerce stripe'
             backgroundImg={Ecommerce}
@@ -36,13 +47,6 @@ const Projects = () => {
             backgroundImg={Whatsapp}
             projectUrl='/whatsapp'
             tech='Next JS'
-
-          />
-          <ProjectItem
-            title='Blog App'
-            backgroundImg={BlogImg}
-            projectUrl='/blog'
-            tech='MERN Stack'
 
           />
           <ProjectItem
