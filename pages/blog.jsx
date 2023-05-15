@@ -32,7 +32,7 @@ const blog = () => {
            technologies, allowing for a seamless user experience on both desktop and mobile devices. With 
            the ability to create, update, and delete posts, our users have complete control over their content.
             Our platform is designed to be easy to use and intuitive, ensuring that even novice bloggers can 
-            quickly get up and running. Whether you're a seasoned writer or just starting out, our Next.
+            quickly get up and running. Whether you&apos;re a seasoned writer or just starting out, our Next.
             js Firebase blog app is the perfect place to share your ideas and connect with a like-minded 
             community.
           </p>

@@ -31,9 +31,9 @@ const blog = () => {
             favorite books in PDF and EPUB formats. Our app is built with a responsive design, making 
             it easy to use on any device. We have also integrated a powerful web scraper to gather data
             from various sources to ensure that our users have access to the latest books available.
-             Whether you're an avid reader or a student looking for reference material, our app is the 
+             Whether you&apos;re an avid reader or a student looking for reference material, our app is the 
             perfect solution for all your reading needs. Try it out today and enjoy your favorite books 
-            on the go!"
+            on the go!
           </p>
           <a
             href='https://github.com/houariDz95/oumat-iqra-lib'
