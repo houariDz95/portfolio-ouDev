@@ -7,6 +7,8 @@ import BlogImg from '../public/assets/projects/blog.jpg';
 import UiImg from '../public/assets/projects/ui.jpg';
 import ordering from '../public/assets/projects/ordering.jpg';
 import Iqraa from '../public/assets/projects/iqraa.jpg';
+import Portfolio from '../public/assets/projects/portfolio.png';
+
 import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
@@ -28,6 +30,12 @@ const Projects = () => {
             backgroundImg={BlogImg}
             projectUrl='/blog'
             tech='NextJs Firebase Tailwind'
+          />
+          <ProjectItem
+            title='Portfolio'
+            backgroundImg={Portfolio}
+            projectUrl='/portfolio'
+            tech='React js tailwind css Framer motion'
           />
           <ProjectItem
             title='E-commerce stripe'
