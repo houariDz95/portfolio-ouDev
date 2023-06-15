@@ -44,7 +44,7 @@ const blog = () => {
             >https://personal-blog-app-six.vercel.app/admine</a> 
             and use the following credentials:
             Email: houarieddrief7@gmail.com
-            Password: 123123 
+            Password: tadjeddine7 
             <br />  <br />
             With Breath, you have the freedom to express yourself, connect with your audience, and make your mark in the digital world. 
             Let&#39;s explore the exciting features that make our app stand out:
